@@ -13,7 +13,8 @@ namespace sibenice
             // vybrani nahodneho slova
             string slovo = slova[random.Next(slova.Length)].Trim().ToLower(); // POZOR: Pokud je v souboru prázdný řádek, můžeš dostat prázdné slovo.
 
-            int pokusy = 12;
+            int pokusy = 12
+                ;
             var uhodnutaPismena = new HashSet<char>();
 
             while (true)
@@ -45,7 +46,7 @@ namespace sibenice
                 //  kontrola hadani slova
                 if (uhodnutaPismena.Contains(tip))
                 {
-                    Console.WriteLine("Toto písmeno už jsi hádal.");
+                    Console.WriteLine("Toto písmeno už jsi hadal.");
                     continue;
                 }   
 
@@ -67,7 +68,7 @@ namespace sibenice
                 }
                 if (pokusy == 0)
                 {
-                    Console.WriteLine($"Prohrál jsi! Hledané slovo bylo: {slovo}");
+                    Console.WriteLine($"LOOOSER");
                     break;
                 }
             }
