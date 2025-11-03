@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sibenice", "sibenice\sibeni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piškvorky", "Piškvorky\Piškvorky.csproj", "{65400AA4-F7F8-481E-93DD-8A215E41D456}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kolize_mezi_ctverecky", "kolize_mezi_ctverecky\kolize_mezi_ctverecky.csproj", "{78AEE4B5-FD43-4111-87F3-042E50F0D2E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{65400AA4-F7F8-481E-93DD-8A215E41D456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65400AA4-F7F8-481E-93DD-8A215E41D456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65400AA4-F7F8-481E-93DD-8A215E41D456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AEE4B5-FD43-4111-87F3-042E50F0D2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AEE4B5-FD43-4111-87F3-042E50F0D2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AEE4B5-FD43-4111-87F3-042E50F0D2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AEE4B5-FD43-4111-87F3-042E50F0D2E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
